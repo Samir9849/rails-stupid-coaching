@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Stupid Coaching🚀</h1>
+  <div class="ask">
+    <h2><%= @ask%></h2>
+    <p>You ask</p>
+    value="<%= params[:ask] %>"
+  </div>
+  <div class="answer">
+    <h2><%= @answer%></h2>
+    <p>Your coach</p>
+  </div>
+<%= link_to "Ask another questions?", "ask" %>
+
+</body>
+</html>
